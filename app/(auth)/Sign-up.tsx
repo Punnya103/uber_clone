@@ -116,9 +116,7 @@ const SignUp = () => {
             onChangeText={(value) => setForm({ ...form, password: value })}
           />
           <CustomButton title="Sign Up" onPress={onSignUpPress} className="mt-6" />
-
-  <OAuth />
-
+          <OAuth />
           <Link href="/sign-in" className="mt-10 text-center text-lg text-general-200">
             Already have an account? <Text className="text-primary-500">Log In</Text>
           </Link>
